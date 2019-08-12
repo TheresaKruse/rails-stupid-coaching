@@ -1,0 +1,35 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.heading {
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+.pa {
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+.ff {
+  display: flex;
+  height: 40px;
+}
+
+#input {
+  width: 85%;
+  // border: 0.5px solid grey;
+}
+
+#askk {
+  font-family: 'Red Hat Display', sans-serif;
+  width: 15%;
+  background-color: #2274A5;
+}
+
+.qa {
+  background-color: lightyellow;
+  border-left: thick solid lightgrey;
+  padding: 1px;
+  padding-left: 8px;
+}

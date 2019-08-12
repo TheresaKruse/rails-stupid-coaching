@@ -1,0 +1,20 @@
+<style>
+@import url('https://fonts.googleapis.com/css?family=Red+Hat+Display&display=swap');
+</style>
+
+<h2 class="heading">Stupid Coaching</h2>
+
+
+<div class = "qa">
+<p class="pa"><%=@question%></p>
+<p class="pa">-You</p>
+</div>
+<br>
+<div class = "qa">
+<p class="pa"><%=@answer%></p>
+<p class="pa">-Your coach</p>
+</div>
+<br>
+
+<%=link_to 'Ask a new question!', '/ask' %>
+
